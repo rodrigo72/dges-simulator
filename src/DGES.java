@@ -70,7 +70,7 @@ public class DGES {
         addItems(this.examSets, examSets, "ExamSet");
     }
 
-    public void executeFirstPhase() {
+    public void execute() {
         for (Student student : students.values()) {
             int count = 1;
             for (Integer courseCode : student.getOrderOfPreferredCourses()) {

@@ -1,7 +1,5 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class Main {
 
@@ -60,7 +58,7 @@ public class Main {
         dges.addCourses(courses);
 
         dges.generateRandomStudents(700);
-        dges.executeFirstPhase();
+        dges.execute();
         System.out.println(dges.getRandomCourseString());
         System.out.println(dges.getRandomStudentString());
 
